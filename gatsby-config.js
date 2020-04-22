@@ -37,60 +37,59 @@ module.exports = {
     social: {
       twitter: `kylemathews`,
     },
-  },
-
-  crossword: {
-    food: {
-      chinese: {
-        name: `chasiubao`,
-      },
-      taiwanese: {
-        drink: {
-          name: `boba`,
+    crossword: {
+      food: {
+        chinese: {
+          name: `chasiubao`,
         },
-      },
-      korean: {
-        name: `bulgogi`,
-      },
-      japanese: {
-        grill: {
-          name: `hibachi`,
-        },
-        seafood: {
-          name: `sushi`,
-        },
-        dessert: {
-          name: `mochi`,
-        },
-        noodles: {
-          thick: {
-            name: `udon`,
-          },
-          thin: {
-            name: `ramen`,
+        taiwanese: {
+          drink: {
+            name: `boba`,
           },
         },
-      },
-      hawaiian: {
-        name: `poke`,
-      },
-      indian: {
-        name: `naan`,
-      },
-      mediterranean: {
-        name: `shawarma`,
-      },
-      french: {
-        dessert: {
-          name: `cremebrulee`,
+        korean: {
+          name: `bulgogi`,
         },
-      },
-      miscdessert: {
-        name: `cake`,
+        japanese: {
+          grill: {
+            name: `hibachi`,
+          },
+          seafood: {
+            name: `sushi`,
+          },
+          dessert: {
+            name: `mochi`,
+          },
+          noodles: {
+            thick: {
+              name: `udon`,
+            },
+            thin: {
+              name: `ramen`,
+            },
+          },
+        },
+        hawaiian: {
+          name: `poke`,
+        },
+        indian: {
+          name: `naan`,
+        },
+        mediterranean: {
+          name: `shawarma`,
+        },
+        french: {
+          dessert: {
+            name: `cremebrulee`,
+          },
+        },
+        miscdessert: {
+          name: `cake`,
+        },
       },
     },
   },
-
+  
   plugins: [
     {
       resolve: "gatsby-source-graphql",
