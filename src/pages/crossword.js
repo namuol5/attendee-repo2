@@ -8,23 +8,16 @@ const data = {
   across: {
     1: { clue: "Dim Sum", answer: "CHASIUBAO", row: 0, col: 0 },
     2: { clue: "Mandalorian's favorite drink", answer: "BOBA", row: 4, col: 5 },
-    3: {
-      clue: "College students' best friend",
-      answer: "RAMEN",
-      row: 6,
-      col: 0,
-    },
-    7: { clue: "Thicc", answer: "UDON", row: 7, col: 0 },
-    8: { clue: "Grill", answer: "HIBACHI", row: 9, col: 2 },
+    7: { clue: "Thick noodles", answer: "UDON", row: 7, col: 0 },
+    10: { clue: "Indian bread", answer: "NAAN", row: 9, col: 7 },
+
   },
   down: {
-    1: { clue: "French", answer: "CREMEBRULEE", row: 0, col: 0 },
+    1: { clue: "French dessert", answer: "CREMEBRULEE", row: 0, col: 0 },
     4: { clue: "Japanese", answer: "SUSHI", row: 0, col: 3 },
     5: { clue: "Korean", answer: "BULGOGI", row: 0, col: 6 },
-    6: { clue: "Dessert", answer: "CAKE", row: 3, col: 7 },
     9: { clue: "Japanese dessert", answer: "MOCHI", row: 6, col: 2 },
-    10: { clue: "Indian", answer: "NAAN", row: 7, col: 5 },
-    11: { clue: "Mediterranean", answer: "SHAWARMA", row: 0, col: 10 },
+    11: { clue: "Mediterranean", answer: "SHAWARMA", row: 2, col: 8 },
   },
 }
 

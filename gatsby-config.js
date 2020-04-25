@@ -35,12 +35,116 @@ module.exports = {
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `twitter`,
     },
+    hero: {
+      nameFirst: {
+        jan: {
+          name: 'Atomic',
+        },
+        feb: {
+          name: 'Captain',
+        },
+        mar:{
+          name: 'Iron',
+        },
+        apr: {
+          name: 'The',
+        },
+        may: {
+          name: 'Mighty',
+        },
+        jun: {
+          name: 'Invincible',
+        },
+        jul: {
+          name: 'Incredible',
+        },
+        aug: {
+          name: 'Professor',
+        },
+        sep: {
+          name: 'Metal',
+        },
+        oct: {
+          name: 'One Punch',
+        },
+        nov: {
+          name: 'Fantastic',
+        },
+        dec: {
+          name: 'Super',
+        },
+      },
+      nameSecond: {
+        "01_03": {
+          name: 'Sloth',
+        },
+        "04_06": {
+          name: 'Giraffe',
+        },
+        "07_09": {
+          name: 'Pupper',
+        },
+        "10_12":{
+          name: 'Panther',
+        },
+        "13_15":{
+          name: 'Tiger',
+        },
+        "16_18":{
+          name: 'Squirrel',
+        },
+        "19_21":{
+          name: 'Armadillo',
+        },
+        "22_24":{
+          name: 'Capybara',
+        },
+        "25_27":{
+          name: 'Honey Badger',
+        },
+        "28_31":{
+          name: 'Mouse',
+        },
+      },
+      power: {
+        superstrength: {
+          name: 'Super Strength',
+          desc: 'Ability to lift 10x your body weight',
+        },
+        superagility: {
+          name: 'Super Agility',
+          desc: 'Highly agile and quick',
+        },
+        zawarudo:{
+          name: 'Time Stop',
+          desc: 'Able to stop time for everything else around you',
+        },
+        levitation: {
+          name: 'Levitation',
+          desc: 'Ability to cause whatever you touch to levitate',
+        },
+        telekinesis:{
+          name: 'Telekinesis',
+          desc: 'Able to move objects with your mind',
+        },
+        tech:{
+          name: 'Cutting Edge Technology',
+          desc: 'Inventor and wielder of cutting edge technology',
+        },
+      },
+    },
+
     crossword: {
       food: {
         chinese: {
-          name: `chasiubao`,
+          noodles: {
+            name: `chowmein`,
+          },
+          dimsum: {
+            name: `chasiubao`,
+          },
         },
         taiwanese: {
           drink: {
@@ -48,7 +152,12 @@ module.exports = {
           },
         },
         korean: {
-          name: `bulgogi`,
+          beef: {
+            name: `bulgogi`,
+          },
+          cabbage: {
+            name: `kimchi`,
+          },
         },
         japanese: {
           grill: {
@@ -73,7 +182,12 @@ module.exports = {
           name: `poke`,
         },
         indian: {
-          name: `naan`,
+          dumplings: {
+            name: `malaikofta`
+          },
+          flatbread: {
+            name: `naan`,
+          },
         },
         mediterranean: {
           name: `shawarma`,

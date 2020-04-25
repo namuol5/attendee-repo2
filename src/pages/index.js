@@ -57,35 +57,3 @@ export const pageQuery = graphql`
     }
   }
 `
-/*
-          <article key={node.fields.slug}>
-            <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </section>
-          </article>
-          {posts.map(({ node }) => {
-        
-        return (
-          <PostPreview
-          key = {node.fields.slug} 
-          post={node}
-          />
-        )
-      })}
-          */
